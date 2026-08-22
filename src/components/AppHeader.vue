@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const MODULO_RUN = 'https://modulo.run'
+import { MODULO_RUN } from '@/config'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ const MODULO_RUN = 'https://modulo.run'
       class="mx-auto flex max-w-content items-center justify-between gap-3 px-4 py-3 sm:gap-6 sm:px-6"
     >
       <a
-        href="https://modulo.run"
+        :href="MODULO_RUN"
         class="flex shrink-0 items-center gap-2 rounded-lg text-ink-50"
       >
         <svg

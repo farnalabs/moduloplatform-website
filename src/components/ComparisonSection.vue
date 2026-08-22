@@ -23,7 +23,7 @@ const rows: Row[] = [
   },
   {
     capability: 'Integrations',
-    modulo: 'Typed, swappable connectors for GitHub, Linear, Notion.',
+    modulo: 'Typed, swappable connectors for GitHub today, with Linear and Notion on the roadmap.',
     build: 'Hand-roll each API client, auth flow, and schema mapping.',
   },
   {

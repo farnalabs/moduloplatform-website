@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const DEMO_URL = 'https://app.modulo.run'
+import { DEMO_URL } from '@/config'
 </script>
 
 <template>

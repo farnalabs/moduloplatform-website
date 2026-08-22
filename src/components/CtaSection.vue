@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const DEMO_URL = 'https://app.modulo.run'
+import { DEMO_URL, MODULO_RUN } from '@/config'
 </script>
 
 <template>
@@ -31,7 +31,7 @@ const DEMO_URL = 'https://app.modulo.run'
       </div>
       <p class="mt-6 text-sm text-ink-300">
         Or explore the product directly at
-        <a href="https://modulo.run" class="text-teal-400 hover:text-teal-300">modulo.run</a>.
+        <a :href="MODULO_RUN" class="text-teal-400 hover:text-teal-300">modulo.run</a>.
       </p>
     </div>
   </section>
