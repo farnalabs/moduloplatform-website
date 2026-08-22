@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const MODULO_RUN = 'https://modulo.run'
+import { MODULO_RUN } from '@/config'
 const year = new Date().getFullYear()
 </script>
 
