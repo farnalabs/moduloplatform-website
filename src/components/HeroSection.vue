@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const DEMO_URL = 'https://modulo.run'
+const DEMO_URL = 'https://app.modulo.run'
 </script>
 
 <template>
@@ -21,8 +21,9 @@ const DEMO_URL = 'https://modulo.run'
       </h1>
       <p class="mt-6 max-w-2xl text-lg text-ink-300">
         Modulo lets you compose atomic AI agents into a visual, governed pipeline that automates
-        the work between your tools. Connect GitHub, Linear, and Notion, then let the agents
-        handle the glue so your team can focus on the work that matters.
+        the work between your tools. Self-hosted and source-available, so your prompts and data
+        stay in your infrastructure. Connect GitHub today — Linear and Notion are on the roadmap
+        — then let the agents handle the glue so your team can focus on the work that matters.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a

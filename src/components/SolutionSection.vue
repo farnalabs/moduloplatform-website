@@ -6,7 +6,7 @@ const steps = [
   },
   {
     title: 'Connect',
-    body: 'Bind your real tools. Modulo speaks to GitHub, Linear, and Notion through typed, swappable connectors.',
+    body: 'Bind your real tools. Modulo speaks to GitHub today (Linear and Notion connectors are on the roadmap) through typed, swappable connectors.',
   },
   {
     title: 'Govern',

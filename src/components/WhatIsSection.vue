@@ -1,6 +1,4 @@
-<script setup lang="ts">
-const integrations = ['GitHub', 'Linear', 'Notion'] as const
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <section id="what-is" class="border-b border-ink-700/60" aria-labelledby="what-is-heading">
@@ -43,11 +41,9 @@ const integrations = ['GitHub', 'Linear', 'Notion'] as const
               <span><strong class="text-ink-100">Not a black box.</strong> You own the prompts, schemas, and governance; Modulo runs them.</span>
             </li>
           </ul>
-          <p class="mt-6 text-sm text-ink-400">
-            Connects to the tools your team already runs:
-            <span v-for="(name, i) in integrations" :key="name">
-              <span v-if="i > 0" class="text-ink-600">, </span>{{ name }}
-            </span>.
+          <p class="mt-6 text-sm text-ink-300">
+            Connects to the tools your team already runs — GitHub today, with Linear and Notion on
+            the roadmap.
           </p>
         </div>
       </div>

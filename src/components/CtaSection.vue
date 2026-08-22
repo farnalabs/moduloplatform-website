@@ -29,7 +29,7 @@ const DEMO_URL = 'https://app.modulo.run'
           </svg>
         </a>
       </div>
-      <p class="mt-6 text-sm text-ink-400">
+      <p class="mt-6 text-sm text-ink-300">
         Or explore the product directly at
         <a href="https://modulo.run" class="text-teal-400 hover:text-teal-300">modulo.run</a>.
       </p>
