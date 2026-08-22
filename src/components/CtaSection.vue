@@ -9,12 +9,12 @@ import { APP_URL, MODULO_RUN } from '@/config'
         Start governing your agentic SDLC free
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
-        The Community edition is free and complete. Self-host it on your own infrastructure or use
-        the hosted app. No credit card required.
+        The Community edition is free and complete. Self-host it on your own infrastructure. No
+        credit card required.
       </p>
       <div class="mx-auto mt-8 inline-block rounded-lg border border-ink-700 bg-ink-800 px-6 py-4 text-left">
         <p class="text-sm font-semibold text-ink-50">
-          Community - free, self-hosted or hosted, no credit card.
+          Community - free, self-hosted, no credit card.
         </p>
         <p class="mt-1 text-sm text-ink-300">Team - add SSO, RBAC, and audit export.</p>
       </div>

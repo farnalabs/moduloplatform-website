@@ -50,7 +50,7 @@ Cloudflare Pages, configured via `wrangler.toml`:
   remainder." Modulo is an agent governance platform for AI-powered SDLC
   pipelines, a visual, composable pipeline of atomic agents that automate work
   between GitHub, Linear, Notion, and similar tools.
-- The Community edition is free and complete — self-hosted or hosted, no credit
-  card required. The CTA is **Start free**, linking to `https://app.modulo.run`.
+- The Community edition is free and complete — self-hosted, no credit card
+  required. The CTA is **Start free**, linking to `https://app.modulo.run`.
 - CTA links to `https://app.modulo.run` (sign up) and `https://modulo.run`
   (product), since this site itself does not capture leads.

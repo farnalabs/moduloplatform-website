@@ -49,7 +49,7 @@ import { APP_URL } from '@/config'
         </a>
       </div>
       <p class="mt-4 text-sm text-ink-300">
-        Free and complete. No credit card required. Self-hosted or hosted.
+        Free and complete. No credit card required. Self-hosted.
       </p>
     </div>
   </section>
