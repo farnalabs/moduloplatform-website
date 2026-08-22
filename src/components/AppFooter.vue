@@ -32,8 +32,7 @@ const year = new Date().getFullYear()
     </div>
     <div class="mx-auto max-w-content px-4 pb-8 sm:px-6">
       <p class="text-xs text-ink-300">
-        &copy; {{ year }} Modulo. This is the top-of-funnel site for the Modulo platform; the
-        product lives at modulo.run.
+        &copy; {{ year }} Modulo.
       </p>
     </div>
   </footer>

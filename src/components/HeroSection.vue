@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DEMO_URL } from '@/config'
+import { APP_URL } from '@/config'
 </script>
 
 <template>
@@ -23,14 +23,14 @@ import { DEMO_URL } from '@/config'
         Modulo enforces boundaries on your agentic SDLC: every step validates against typed
         schemas, every risky decision is gated, and every action is written to an immutable
         audit trail. Self-hosted and source-available, so your prompts and data stay in your
-        infrastructure. Connect GitHub, Linear, and Notion today.
+        infrastructure.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a
-          :href="DEMO_URL"
+          :href="APP_URL"
           class="inline-flex items-center gap-2 rounded-lg bg-teal-500 px-5 py-3 text-sm font-semibold text-ink-900 transition-colors hover:bg-teal-400"
         >
-          Request a demo
+          Start free
           <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path
               d="M4 10h12M11 5l5 5-5 5"
@@ -48,6 +48,9 @@ import { DEMO_URL } from '@/config'
           What is an agent governance platform?
         </a>
       </div>
+      <p class="mt-4 text-sm text-ink-300">
+        Free and complete. No credit card required. Self-hosted or hosted.
+      </p>
     </div>
   </section>
 </template>

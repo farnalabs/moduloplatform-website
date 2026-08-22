@@ -3,17 +3,15 @@ import HeroSection from '@/components/HeroSection.vue'
 import WhatIsSection from '@/components/WhatIsSection.vue'
 import ProblemSection from '@/components/ProblemSection.vue'
 import SolutionSection from '@/components/SolutionSection.vue'
-import ComparisonSection from '@/components/ComparisonSection.vue'
 import AudienceSection from '@/components/AudienceSection.vue'
 import CtaSection from '@/components/CtaSection.vue'
 </script>
 
 <template>
   <HeroSection />
-  <WhatIsSection />
   <ProblemSection />
+  <WhatIsSection />
   <SolutionSection />
-  <ComparisonSection />
   <AudienceSection />
   <CtaSection />
 </template>

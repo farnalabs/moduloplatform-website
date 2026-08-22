@@ -1,23 +1,23 @@
 <script setup lang="ts">
-import { DEMO_URL, MODULO_RUN } from '@/config'
+import { APP_URL, MODULO_RUN } from '@/config'
 </script>
 
 <template>
   <section id="demo" class="relative overflow-hidden" aria-labelledby="demo-heading">
     <div class="mx-auto max-w-content px-4 py-20 text-center sm:px-6 sm:py-28">
       <h2 id="demo-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
-        See Modulo govern your agentic SDLC
+        Start governing your agentic SDLC free
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
-        The fastest way to understand an agent governance platform is to watch one govern work
-        across your tools. Request a demo and we will walk through a pipeline on your stack.
+        The Community edition is free and complete. Self-host it on your own infrastructure or use
+        the hosted app. No credit card required.
       </p>
       <div class="mt-8 flex justify-center">
         <a
-          :href="DEMO_URL"
+          :href="APP_URL"
           class="inline-flex items-center gap-2 rounded-lg bg-teal-500 px-6 py-3 text-sm font-semibold text-ink-900 transition-colors hover:bg-teal-400"
         >
-          Request a demo
+          Start free
           <svg class="h-4 w-4" viewBox="0 0 20 20" fill="none" aria-hidden="true">
             <path
               d="M4 10h12M11 5l5 5-5 5"

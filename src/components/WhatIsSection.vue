@@ -30,21 +30,29 @@
           <h3 class="text-lg font-semibold text-ink-50">The category Modulo sits in</h3>
           <ul class="mt-4 space-y-3 text-ink-300">
             <li class="flex gap-3">
-              <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Not a chatbot builder.</strong> It composes agents into pipelines, not single conversational apps.</span>
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span><strong class="text-ink-100">Governance first.</strong> Enforced boundaries, gates, and rules around every agent action.</span>
             </li>
             <li class="flex gap-3">
-              <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Not a workflow tool.</strong> Sequencing steps is table stakes; enforcing boundaries and keeping an audit trail is the point.</span>
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span><strong class="text-ink-100">Auditability built in.</strong> Every action recorded in an immutable trail.</span>
             </li>
             <li class="flex gap-3">
-              <span class="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span><strong class="text-ink-100">Process management.</strong> Agentic work becomes a managed, repeatable process.</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span><strong class="text-ink-100">Not an agent executor.</strong> We do not run your agents reasoning loop - we dispatch to whatever runtime or system you already use to run your agents, then manage the inputs and outputs around it.</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
               <span><strong class="text-ink-100">Not a black box.</strong> You own the prompts, schemas, and governance; Modulo runs them.</span>
             </li>
           </ul>
           <p class="mt-6 text-sm text-ink-300">
-            Connects to the tools your team already runs: GitHub, Linear, Notion (all live, no
-            roadmap).
+            Connects to the tools your team already runs: GitHub, GitLab, Bitbucket, Jira, Linear,
+            Confluence, Slack, Microsoft Teams, and 30+ more.
           </p>
         </div>
       </div>
