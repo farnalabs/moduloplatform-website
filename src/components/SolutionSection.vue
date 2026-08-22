@@ -1,20 +1,20 @@
 <script setup lang="ts">
 const steps = [
   {
-    title: 'Compose',
-    body: 'Assemble atomic agents into a visual pipeline. Each agent has one job; edges define what happens next.',
+    title: 'Define',
+    body: 'Typed schema seams at every boundary. Inputs and outputs validate against schemas before anything moves, so agents cannot pass garbage downstream.',
   },
   {
-    title: 'Connect',
-    body: 'Bind your real tools. Modulo speaks to GitHub today (Linear and Notion connectors are on the roadmap) through typed, swappable connectors.',
+    title: 'Gate',
+    body: 'Deterministic gates and human-in-the-loop where it matters. Risky work pauses for review with the evidence attached.',
   },
   {
-    title: 'Govern',
-    body: 'Add human-in-the-loop gates where decisions matter, and keep an immutable record of every agent action.',
+    title: 'Audit',
+    body: 'Every action recorded in an immutable trail. Timestamped, org-scoped, and inspectable after the fact.',
   },
   {
     title: 'Improve',
-    body: 'Run automatic evaluations on every output and inspect any run, so the pipeline gets better over time.',
+    body: 'Evals on every output, and autonomy that rises with evidence. Trust is earned, not assumed.',
   },
 ] as const
 </script>
@@ -30,7 +30,7 @@ const steps = [
         How Modulo handles it
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Modulo turns orchestration into configuration, not custom code. The same four steps take a
+        Modulo turns governance into configuration, not custom code. The same four moves take a
         manual process from idea to a governed, auditable pipeline:
       </p>
       <ol class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -50,8 +50,8 @@ const steps = [
         </li>
       </ol>
       <p class="mt-8 max-w-2xl text-ink-300">
-        The result is a composable pipeline of atomic AI agents that automates the boring,
-        repetitive parts of your SDLC and leaves the judgment calls to your team.
+        The result is a governed pipeline of atomic AI agents that automates your SDLC work with
+        enforced boundaries, human gates where it matters, and an audit trail you can trust.
       </p>
     </div>
   </section>

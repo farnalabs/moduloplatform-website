@@ -1,20 +1,20 @@
 <script setup lang="ts">
 const problems = [
   {
-    title: 'Glue code between agents and tools',
-    body: 'Every agent needs to authenticate, format, and hand off data to GitHub, Linear, Notion, and your CI. That wiring is bespoke, repetitive, and easy to get wrong.',
+    title: 'No enforced boundaries',
+    body: 'Agents can pass garbage downstream with no record. Without schema seams at every step, bad output flows straight into your tools and your production systems.',
   },
   {
-    title: 'Retries, failures, and idempotency',
-    body: 'A single flaky API call should not stall a pipeline. You end up building your own retry, backoff, and deduplication logic before any real work happens.',
+    title: 'No audit trail',
+    body: 'You cannot say what an agent did or why. When something breaks or ships wrong, there is no verifiable record of the action that caused it.',
   },
   {
-    title: 'Evals and quality gates',
-    body: 'Without automatic evaluation, you cannot tell whether an agentic pipeline is getting better or worse. Most teams ship agents with no way to measure output quality.',
+    title: 'No human gates',
+    body: 'Agents ship unreviewed work. Without a deterministic gate or a human in the loop, nothing stands between an agent output and the work that matters.',
   },
   {
-    title: 'Observability and audit',
-    body: 'When an agent changes a ticket or merges a PR, someone needs to see what it did and why. Building that trail from scratch is a project in itself.',
+    title: 'No evidence',
+    body: 'You cannot tell if the pipeline is getting better. Without evals and run history, quality is a guess and autonomy cannot be earned.',
   },
 ] as const
 </script>
@@ -27,11 +27,12 @@ const problems = [
   >
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
       <h2 id="problem-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        The boilerplate you should not be writing
+        The governance gaps in agent pipelines
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Before a single line of agent logic adds value, teams sink weeks into infrastructure that
-        has nothing to do with their product. This is the boilerplate Modulo handles:
+        Agents are powerful and opaque. Without governance they become a liability: unreviewed
+        output, no accountability, no way to measure whether they are helping. These are the gaps
+        Modulo closes:
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li

@@ -2,11 +2,11 @@
 const audiences = [
   {
     title: 'Platform & DevEx teams',
-    body: 'Own the internal tooling and want to give product teams a governed, self-serve way to automate SDLC work.',
+    body: 'Own the internal tooling and want to give product teams a governed, self-serve way to automate SDLC work without abandoning oversight.',
   },
   {
     title: 'AI product teams',
-    body: 'Are shipping agents and need orchestration, evals, and observability without becoming an infra team.',
+    body: 'Are shipping agents and need evals, audit, and human gates without becoming an infra team.',
   },
   {
     title: 'Agencies',
@@ -27,7 +27,7 @@ const audiences = [
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
         Modulo is built for teams that want control over their agents without building the
-        orchestration stack themselves.
+        governance stack themselves.
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li

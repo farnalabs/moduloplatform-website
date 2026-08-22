@@ -6,11 +6,11 @@ import { DEMO_URL, MODULO_RUN } from '@/config'
   <section id="demo" class="relative overflow-hidden" aria-labelledby="demo-heading">
     <div class="mx-auto max-w-content px-4 py-20 text-center sm:px-6 sm:py-28">
       <h2 id="demo-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
-        See Modulo run your SDLC
+        See Modulo govern your agentic SDLC
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
-        The fastest way to understand an AI orchestration platform is to watch one move work across
-        your tools. Request a demo and we will walk through a pipeline on your stack.
+        The fastest way to understand an agent governance platform is to watch one govern work
+        across your tools. Request a demo and we will walk through a pipeline on your stack.
       </p>
       <div class="mt-8 flex justify-center">
         <a

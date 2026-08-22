@@ -11,19 +11,19 @@ import { DEMO_URL } from '@/config'
       <p
         class="mb-4 inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-800 px-3 py-1 text-xs font-medium text-teal-400"
       >
-        AI orchestration platform
+        Agent governance platform
       </p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
       >
-        The AI orchestration platform for teams who would rather build product than boilerplate.
+        Agent governance for your agentic SDLC.
       </h1>
       <p class="mt-6 max-w-2xl text-lg text-ink-300">
-        Modulo lets you compose atomic AI agents into a visual, governed pipeline that automates
-        the work between your tools. Self-hosted and source-available, so your prompts and data
-        stay in your infrastructure. Connect GitHub today — Linear and Notion are on the roadmap
-        — then let the agents handle the glue so your team can focus on the work that matters.
+        Modulo enforces boundaries on your agentic SDLC: every step validates against typed
+        schemas, every risky decision is gated, and every action is written to an immutable
+        audit trail. Self-hosted and source-available, so your prompts and data stay in your
+        infrastructure. Connect GitHub, Linear, and Notion today.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a
@@ -45,7 +45,7 @@ import { DEMO_URL } from '@/config'
           href="#what-is"
           class="inline-flex items-center gap-2 rounded-lg border border-ink-700 px-5 py-3 text-sm font-medium text-ink-100 hover:border-ink-600 hover:text-ink-50"
         >
-          What is an AI orchestration platform?
+          What is an agent governance platform?
         </a>
       </div>
     </div>

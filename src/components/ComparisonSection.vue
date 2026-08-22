@@ -7,29 +7,34 @@ type Row = {
 
 const rows: Row[] = [
   {
-    capability: 'Pipeline composition',
-    modulo: 'Visual, versioned pipelines of atomic agents out of the box.',
-    build: 'Design your own graph format, executor, and state machine.',
+    capability: 'Enforced boundaries',
+    modulo: 'Typed schema seams at every step, enforced out of the box.',
+    build: 'Design and enforce your own validation on every agent output.',
   },
   {
-    capability: 'Agent orchestration',
-    modulo: 'Dispatch, retries, and handoffs handled by the platform.',
-    build: 'Write scheduling, retry, and failure-handling code yourself.',
+    capability: 'Audit trail',
+    modulo: 'Immutable, timestamped record of every agent action.',
+    build: 'Build your own event log, storage, and retention.',
   },
   {
-    capability: 'Eval & observability',
-    modulo: 'Automatic evaluations and per-run inspection built in.',
+    capability: 'Human-in-the-loop',
+    modulo: 'Deterministic gates plus HITL review where it matters.',
+    build: 'Hand-roll approval flows and review UIs.',
+  },
+  {
+    capability: 'Eval & evidence',
+    modulo: 'Evals on every output, and autonomy that rises with evidence.',
     build: 'Instrument logging, metrics, and eval harnesses from scratch.',
   },
   {
-    capability: 'Integrations',
-    modulo: 'Typed, swappable connectors for GitHub today, with Linear and Notion on the roadmap.',
-    build: 'Hand-roll each API client, auth flow, and schema mapping.',
+    capability: 'Self-hosted',
+    modulo: 'Self-hosted and source-available; your data stays on your infra.',
+    build: 'Your infra and full control, but every layer is yours to build.',
   },
   {
-    capability: 'Time to value',
-    modulo: 'Stand up a governed pipeline in hours.',
-    build: 'Weeks of infrastructure before the first agent runs.',
+    capability: 'Integrations',
+    modulo: 'Typed connectors for GitHub, Linear, and Notion, all live now. Wiring is the easy part.',
+    build: 'Hand-roll each API client, auth flow, and schema mapping.',
   },
 ]
 </script>

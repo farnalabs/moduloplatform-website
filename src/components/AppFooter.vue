@@ -11,7 +11,8 @@ const year = new Date().getFullYear()
       <div class="flex flex-col gap-1">
         <span class="text-sm font-semibold text-ink-50">Modulo</span>
         <p class="text-sm text-ink-300">
-          The AI orchestration platform. We handle the boilerplate. You handle the remainder.
+          The agent governance platform for your agentic SDLC. We handle the boilerplate. You
+          handle the remainder.
         </p>
       </div>
       <nav aria-label="Footer" class="flex flex-wrap items-center gap-x-6 gap-y-2">
