@@ -9,8 +9,8 @@ import CtaSection from '@/components/CtaSection.vue'
 
 <template>
   <HeroSection />
-  <ProblemSection />
   <WhatIsSection />
+  <ProblemSection />
   <SolutionSection />
   <AudienceSection />
   <CtaSection />

@@ -2,19 +2,19 @@
 const audiences = [
   {
     title: 'Platform & DevEx teams',
-    body: 'Own the internal tooling and want to give product teams a governed, self-serve way to automate SDLC work without abandoning oversight.',
+    body: 'Need a governed, self-serve way to automate SDLC work without giving agents a blank check.',
   },
   {
     title: 'AI product teams',
-    body: 'Are shipping agents and need evals, audit, and human gates without becoming an infra team.',
+    body: 'Need evals and an audit trail before agents touch production.',
   },
   {
     title: 'Agencies',
-    body: 'Run delivery for multiple clients and want repeatable, auditable pipelines they can stand up fast.',
+    body: 'Need repeatable, auditable pipelines they can stand up fast for multiple clients.',
   },
   {
     title: 'Enterprises',
-    body: 'Require self-hosting, audit trails, and human-in-the-loop control before they can run agents at all.',
+    body: 'Need self-hosting, audit trails, and human-in-the-loop control before agents can touch production code.',
   },
 ] as const
 </script>

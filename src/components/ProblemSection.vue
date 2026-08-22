@@ -5,12 +5,12 @@ const problems = [
     body: 'Agents can pass garbage downstream with no record. Without schema seams at every step, bad output flows straight into your tools and your production systems.',
   },
   {
-    title: 'No audit trail',
-    body: 'You cannot say what an agent did or why. When something breaks or ships wrong, there is no verifiable record of the action that caused it.',
-  },
-  {
     title: 'No human gates',
     body: 'Agents ship unreviewed work. Without a deterministic gate or a human in the loop, nothing stands between an agent output and the work that matters.',
+  },
+  {
+    title: 'No audit trail',
+    body: 'You cannot say what an agent did or why. When something breaks or ships wrong, there is no verifiable record of the action that caused it.',
   },
   {
     title: 'No evidence',

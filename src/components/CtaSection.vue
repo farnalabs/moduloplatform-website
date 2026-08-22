@@ -3,15 +3,21 @@ import { APP_URL, MODULO_RUN } from '@/config'
 </script>
 
 <template>
-  <section id="demo" class="relative overflow-hidden" aria-labelledby="demo-heading">
+  <section id="cta" class="relative overflow-hidden" aria-labelledby="cta-heading">
     <div class="mx-auto max-w-content px-4 py-20 text-center sm:px-6 sm:py-28">
-      <h2 id="demo-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
+      <h2 id="cta-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
         Start governing your agentic SDLC free
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
         The Community edition is free and complete. Self-host it on your own infrastructure or use
         the hosted app. No credit card required.
       </p>
+      <div class="mx-auto mt-8 inline-block rounded-lg border border-ink-700 bg-ink-800 px-6 py-4 text-left">
+        <p class="text-sm font-semibold text-ink-50">
+          Community - free, self-hosted or hosted, no credit card.
+        </p>
+        <p class="mt-1 text-sm text-ink-300">Team - add SSO, RBAC, and audit export.</p>
+      </div>
       <div class="mt-8 flex justify-center">
         <a
           :href="APP_URL"

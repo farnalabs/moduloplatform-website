@@ -10,11 +10,11 @@ const steps = [
   },
   {
     title: 'Audit',
-    body: 'Every action recorded in an immutable trail. Timestamped, org-scoped, and inspectable after the fact.',
+    body: 'Every action recorded in a tamper-evident trail. Timestamped, org-scoped, and inspectable after the fact.',
   },
   {
     title: 'Improve',
-    body: 'Evals on every output, and autonomy that rises with evidence. Trust is earned, not assumed.',
+    body: 'Evals on every output you want to measure, and autonomy that rises with evidence. Trust is earned, not assumed.',
   },
 ] as const
 </script>

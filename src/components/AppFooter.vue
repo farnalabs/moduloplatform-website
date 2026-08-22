@@ -23,6 +23,12 @@ const year = new Date().getFullYear()
           modulo.run
         </a>
         <a
+          href="https://github.com/farnalabs/modulo"
+          class="text-sm text-ink-300 hover:text-teal-400"
+        >
+          GitHub
+        </a>
+        <a
           :href="`${MODULO_RUN}/privacy`"
           class="text-sm text-ink-300 hover:text-teal-400"
         >

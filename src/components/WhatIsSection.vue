@@ -43,7 +43,7 @@
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Not an agent executor.</strong> We do not run your agents reasoning loop - we dispatch to whatever runtime or system you already use to run your agents, then manage the inputs and outputs around it.</span>
+              <span><strong class="text-ink-100">Not an agent executor.</strong> We do not run your agents' reasoning loop - we dispatch to whatever runtime or system you already use to run your agents, then manage the inputs and outputs around it.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>

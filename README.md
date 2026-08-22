@@ -1,25 +1,25 @@
 # moduloplatform-website
 
-The top-of-funnel marketing website for **Modulo**, the AI orchestration platform.
+The top-of-funnel marketing website for **Modulo**, the agent governance platform.
 
 This site lives at `moduloplatform.com` and is deliberately separate from
 [`modulo.run`](https://modulo.run), which is the product itself (the app, the
 brand hub, and the docs). Its job is to capture search intent for the category
 Modulo sits in, primarily:
 
-> "What is an AI orchestration platform?"
+> "What is an agent governance platform?"
 
-and then hand qualified visitors off to the product via the **Request a demo**
+and then hand qualified visitors off to the product via the **Start free**
 call to action.
 
 ## What it covers
 
-- A plain-language explainer of AI orchestration as a category.
-- The problem it solves (the boilerplate teams should not be writing).
-- How Modulo solves it (composable pipelines of atomic agents).
-- An honest comparison with building the same thing in-house.
+- A plain-language explainer of agent governance as a category.
+- The problem it solves (the governance gaps in agent pipelines).
+- How Modulo solves it (typed schema seams, human gates, audit trail, evals).
 - Audience framing (platform/DevEx, AI product, agencies, enterprises).
-- A demo CTA pointing at `https://modulo.run` / `https://app.modulo.run`.
+- A free-tier pricing strip grounding the Community edition claim.
+- A Start free CTA pointing at `https://app.modulo.run`.
 
 ## Stack
 
@@ -47,10 +47,10 @@ Cloudflare Pages, configured via `wrangler.toml`:
 ## Content decisions
 
 - Positioning mirrors the Modulo PRD: "We handle the boilerplate. You handle the
-  remainder." Modulo is an orchestration layer for AI-powered SDLC pipelines, a
-  visual, composable pipeline of atomic agents that automate work between
-  GitHub, Linear, Notion, and similar tools.
-- The comparison table is intentionally honest (not a feature brag) so the page
-  earns search trust.
-- CTA links to `https://modulo.run` (product) and `https://app.modulo.run`
-  (demo), since this site itself does not capture leads.
+  remainder." Modulo is an agent governance platform for AI-powered SDLC
+  pipelines, a visual, composable pipeline of atomic agents that automate work
+  between GitHub, Linear, Notion, and similar tools.
+- The Community edition is free and complete — self-hosted or hosted, no credit
+  card required. The CTA is **Start free**, linking to `https://app.modulo.run`.
+- CTA links to `https://app.modulo.run` (sign up) and `https://modulo.run`
+  (product), since this site itself does not capture leads.

@@ -21,9 +21,9 @@ import { APP_URL } from '@/config'
       </h1>
       <p class="mt-6 max-w-2xl text-lg text-ink-300">
         Modulo enforces boundaries on your agentic SDLC: every step validates against typed
-        schemas, every risky decision is gated, and every action is written to an immutable
-        audit trail. Self-hosted and source-available, so your prompts and data stay in your
-        infrastructure.
+        schemas, risky decisions pause for review where you configure them, and every action is
+        written to a tamper-evident audit trail. Self-hosted and source-available, so your
+        prompts and data stay in your infrastructure.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a
@@ -43,7 +43,7 @@ import { APP_URL } from '@/config'
         </a>
         <a
           href="#what-is"
-          class="inline-flex items-center gap-2 rounded-lg border border-ink-700 px-5 py-3 text-sm font-medium text-ink-100 hover:border-ink-600 hover:text-ink-50"
+          class="inline-flex items-center gap-2 rounded-lg border border-ink-600 px-5 py-3 text-sm font-medium text-ink-100 hover:border-ink-600 hover:text-ink-50"
         >
           What is an agent governance platform?
         </a>
