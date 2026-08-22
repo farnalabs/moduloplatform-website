@@ -18,7 +18,7 @@
             Governance is the discipline of enforcing those boundaries. Instead of one monolithic
             prompt with no oversight, you build a pipeline: a sequence of atomic agents, each
             with a narrow job, connected by typed schema seams, deterministic gates, and an
-            immutable record of everything that happens.
+            tamper-evident record of everything that happens.
           </p>
           <p>
             Modulo is an agent governance platform built for the software development lifecycle.
@@ -35,7 +35,7 @@
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Auditability built in.</strong> Every action recorded in an immutable trail.</span>
+              <span><strong class="text-ink-100">Auditability built in.</strong> Every action recorded in a tamper-evident trail.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
