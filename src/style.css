@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-900 text-ink-100 font-sans antialiased;
+  background-image: radial-gradient(rgba(0, 255, 209, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+@layer base {
+  :focus-visible {
+    @apply outline-none ring-2 ring-teal-500/80 ring-offset-2 ring-offset-ink-900;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply text-ink-50 font-semibold tracking-tight;
+  }
+}
