@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { APP_URL, MODULO_RUN } from '@/config'
+import { APP_URL, GITHUB_URL } from '@/config'
 </script>
 
 <template>
@@ -36,8 +36,8 @@ import { APP_URL, MODULO_RUN } from '@/config'
         </a>
       </div>
       <p class="mt-6 text-sm text-ink-300">
-        Or explore the product directly at
-        <a :href="MODULO_RUN" class="text-teal-400 hover:text-teal-300">modulo.run</a>.
+        Or self-host from source on
+        <a :href="GITHUB_URL" class="text-teal-400 hover:text-teal-300">GitHub</a>.
       </p>
     </div>
   </section>
