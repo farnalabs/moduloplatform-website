@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { APP_URL } from '@/config'
 </script>
 
@@ -8,18 +8,14 @@ import { APP_URL } from '@/config'
     aria-labelledby="hero-heading"
   >
     <div class="mx-auto max-w-content px-4 py-20 sm:px-6 sm:py-28">
-      <p
-        class="mb-4 inline-flex items-center gap-2 rounded-full border border-ink-700 bg-ink-800 px-3 py-1 text-xs font-medium text-teal-400"
-      >
-        Agent governance platform
-      </p>
+      <p class="mb-4 text-center text-sm font-semibold tracking-tight text-ink-50">Modulo</p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
       >
         Agent governance for your agentic SDLC.
       </h1>
-      <p class="mt-6 max-w-2xl text-lg text-ink-300">
+      <p class="mt-6 max-w-3xl text-lg text-ink-300">
         Modulo enforces boundaries on your agentic SDLC: every step validates against typed
         schemas, risky decisions pause for review where you configure them, and every action is
         written to a tamper-evident audit trail. Self-hosted and source-available, so your
@@ -53,6 +49,7 @@ import { APP_URL } from '@/config'
       <p class="mt-4 text-sm text-ink-300">
         Free and complete. No credit card required. Self-hosted.
       </p>
+      <div class="mx-auto mt-12 flex aspect-[16/9] min-h-[280px] items-center justify-center rounded-xl border border-ink-700/50 bg-ink-800/30"><span class="text-sm text-ink-300">Product screenshot coming soon</span></div>
     </div>
   </section>
 </template>

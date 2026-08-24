@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { MODULO_RUN } from '@/config'
 </script>
 
@@ -40,7 +40,7 @@ import { MODULO_RUN } from '@/config'
           href="https://modulo.run/docs"
           class="rounded-lg px-3 py-2 text-sm font-medium text-ink-100 hover:text-teal-400"
         >
-          Docs
+          Go to Docs
         </a>
         <a
           :href="MODULO_RUN"
