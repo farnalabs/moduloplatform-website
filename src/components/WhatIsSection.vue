@@ -15,10 +15,12 @@
             produced is actually trustworthy.
           </p>
           <p>
-            Governance is the discipline of enforcing those boundaries. Instead of one monolithic
-            prompt with no oversight, you build a pipeline: a sequence of atomic agents, each
-            with a narrow job, connected by typed schema seams, deterministic gates, and an
-            tamper-evident record of everything that happens.
+            Governance is the discipline of enforcing those boundaries. This is graph engineering —
+            designing agent systems as explicit graphs of nodes (agents, tools, validators, humans)
+            and edges (typed schema seams, deterministic gates) rather than one monolithic prompt.
+            Instead of a single agent loop with no oversight, you build a graph: a network of
+            atomic agents, each with a narrow job, connected by typed schema seams, deterministic
+            gates, and a tamper-evident record of everything that happens.
           </p>
           <p>
             Modulo is an agent governance platform built for the software development lifecycle.
@@ -48,6 +50,10 @@
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
               <span><strong class="text-ink-100">Not a black box.</strong> You own the prompts, schemas, and governance; Modulo runs them.</span>
+            </li>
+            <li class="flex gap-3">
+              <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
+              <span><strong class="text-ink-100">Graph engineering native.</strong> Compose agents, tools, gates, and humans into one explicit, governed execution graph — not a tangle of prompts.</span>
             </li>
           </ul>
           <p class="mt-6 text-sm text-ink-300">

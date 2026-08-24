@@ -31,8 +31,9 @@ const problems = [
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
         Agents are powerful and opaque. Without governance they become a liability: unreviewed
-        output, no accountability, no way to measure whether they are helping. These are the gaps
-        Modulo closes:
+        output, no accountability, no way to measure whether they are helping. A single agent loop
+        hides these gaps; an explicit graph of agents, gates, and humans surfaces them. These are
+        the gaps Modulo closes:
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li
