@@ -1,13 +1,13 @@
-<script setup lang="ts"></script>
+﻿<script setup lang="ts"></script>
 
 <template>
   <section id="what-is" class="border-b border-ink-700/60" aria-labelledby="what-is-heading">
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
-      <h2 id="what-is-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        What is an agent governance platform?
-      </h2>
       <div class="mt-6 grid gap-8 lg:grid-cols-2">
         <div class="space-y-4 text-ink-300">
+          <h2 id="what-is-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
+            What is an agent governance platform?
+          </h2>
           <p>
             An agent governance platform is the layer that gives your agents boundaries. Agents
             are good at reasoning and generating output. They are bad at knowing what they are

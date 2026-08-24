@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import { APP_URL, GITHUB_URL } from '@/config'
+﻿<script setup lang="ts">
+import { APP_URL, GITHUB_URL, MODULO_RUN } from '@/config'
 </script>
 
 <template>
@@ -8,16 +8,11 @@ import { APP_URL, GITHUB_URL } from '@/config'
       <h2 id="cta-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
         Start building governed agent graphs free
       </h2>
-      <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
+      <p class="mx-auto mt-4 max-w-2xl text-lg text-ink-300">
         The Community edition is free and complete. Self-host it on your own infrastructure. No
         credit card required.
       </p>
-      <div class="mx-auto mt-8 inline-block rounded-lg border border-ink-700 bg-ink-800 px-6 py-4 text-left">
-        <p class="text-sm font-semibold text-ink-50">
-          Community - free, self-hosted, no credit card.
-        </p>
-        <p class="mt-1 text-sm text-ink-300">Team - add SSO, RBAC, and audit export.</p>
-      </div>
+      <p class="mt-6 text-sm text-ink-300">Looking for SSO, RBAC, and audit export? Check out the <a :href="`${MODULO_RUN}/pricing`" class="text-teal-400 hover:text-teal-300">Team plan on our Pricing page</a>.</p>
       <div class="mt-8 flex justify-center">
         <a
           :href="APP_URL"
@@ -36,7 +31,7 @@ import { APP_URL, GITHUB_URL } from '@/config'
         </a>
       </div>
       <p class="mt-6 text-sm text-ink-300">
-        Or self-host from source on
+        Prefer to run it yourself? The complete source is on
         <a :href="GITHUB_URL" class="text-teal-400 hover:text-teal-300">GitHub</a>.
       </p>
     </div>

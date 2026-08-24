@@ -1,4 +1,4 @@
-<script setup lang="ts">
+﻿<script setup lang="ts">
 import { MODULO_RUN } from '@/config'
 const year = new Date().getFullYear()
 </script>
@@ -11,7 +11,7 @@ const year = new Date().getFullYear()
       <div class="flex flex-col gap-1">
         <span class="text-sm font-semibold text-ink-50">Modulo</span>
         <p class="text-sm text-ink-300">
-          The agent governance platform for your agentic SDLC. We handle the boilerplate. You
+          The governance platform for your agentic SDLC. We handle the boilerplate. You
           handle the remainder.
         </p>
       </div>
