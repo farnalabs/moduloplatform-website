@@ -6,7 +6,7 @@ import { APP_URL, GITHUB_URL } from '@/config'
   <section id="cta" class="relative overflow-hidden" aria-labelledby="cta-heading">
     <div class="mx-auto max-w-content px-4 py-20 text-center sm:px-6 sm:py-28">
       <h2 id="cta-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
-        Start governing your agentic SDLC free
+        Start building governed agent graphs free
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-lg text-ink-300">
         The Community edition is free and complete. Self-host it on your own infrastructure. No

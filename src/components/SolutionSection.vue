@@ -31,7 +31,7 @@ const steps = [
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
         Modulo turns governance into configuration, not custom code. The same four moves take a
-        manual process from idea to a governed, auditable pipeline:
+        manual process from idea to a governed, auditable agent graph:
       </p>
       <ol class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <li
@@ -50,7 +50,7 @@ const steps = [
         </li>
       </ol>
       <p class="mt-8 max-w-2xl text-ink-300">
-        The result is a governed pipeline of atomic AI agents that automates your SDLC work with
+        The result is a governed graph of atomic AI agents that automates your SDLC work with
         enforced boundaries, human gates where it matters, and an audit trail you can trust.
       </p>
     </div>

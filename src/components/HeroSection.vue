@@ -23,7 +23,9 @@ import { APP_URL } from '@/config'
         Modulo enforces boundaries on your agentic SDLC: every step validates against typed
         schemas, risky decisions pause for review where you configure them, and every action is
         written to a tamper-evident audit trail. Self-hosted and source-available, so your
-        prompts and data stay in your infrastructure.
+        prompts and data stay in your infrastructure. Under the hood you compose agents, tools,
+        and human gates into an explicit execution graph — the practice the industry now calls
+        graph engineering.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a
