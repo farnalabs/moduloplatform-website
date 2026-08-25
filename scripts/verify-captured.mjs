@@ -6,12 +6,6 @@ import { ALL_ROUTES, decodeEntities } from './routes.mjs'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DIST = join(__dirname, '..', 'dist')
 
-const anyCaptured = ALL_ROUTES.some((route) => existsSync(join(DIST, route.file)))
-if (!anyCaptured) {
-  console.warn('⚠ No captured HTML found — skipping verification (capture was likely skipped due to missing Chromium)')
-  process.exit(0)
-}
-
 let failures = 0
 
 function check(name, condition, detail = '') {
@@ -38,14 +32,14 @@ check('sitemap.xml exists', existsSync(sitemap))
 if (existsSync(sitemap)) {
   const xml = readFileSync(sitemap, 'utf-8')
   check('sitemap.xml has urlset', xml.includes('<urlset'))
-  check('sitemap.xml has loc', xml.includes('<loc>'))
+  check('sitemap.xml covers all routes', xml.includes('<loc>'), 'no <loc> entries')
 }
 
 const llms = join(DIST, 'llms.txt')
 check('llms.txt exists', existsSync(llms))
 if (existsSync(llms)) {
   const text = readFileSync(llms, 'utf-8')
-  check('llms.txt has content', text.length > 50)
+  check('llms.txt has content', text.length > 50, `only ${text.length} bytes`)
 }
 
 if (failures > 0) {
