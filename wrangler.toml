@@ -1,3 +1,3 @@
 name = "moduloplatform-website"
 pages_build_output_dir = "dist"
-build_command = "npm run build"
+build_command = "npm run build && npx puppeteer browsers install chrome && npm run capture && npm run generate:sitemap && npm run generate:llms"
