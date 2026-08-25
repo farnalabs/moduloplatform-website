@@ -1,0 +1,7 @@
+# Modulo
+
+Modulo is the governance platform for your agentic SDLC. We handle the boilerplate. You handle the remainder.
+
+- Homepage: https://moduloplatform.com/
+- Docs: https://modulo.run/docs
+- GitHub: https://github.com/farnalabs/modulo
