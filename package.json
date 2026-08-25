@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "postbuild": "npm run capture && npm run generate:sitemap && npm run generate:llms && npm run verify:captured",
     "preview": "vite preview",
     "type-check": "vue-tsc --noEmit",
     "capture": "node scripts/capture.mjs",
