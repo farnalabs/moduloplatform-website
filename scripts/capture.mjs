@@ -98,41 +98,16 @@ async function main() {
 
   await page.close()
 
-  console.log(`Captured ${results.length} pages`)
+  console.log(`Captured ${results.length} pages (${ALL_ROUTES.length} routes)`)
   return results
-}
-
-function isChromiumError(err) {
-  const msg = (err.message || '').toLowerCase()
-  return (
-    msg.includes('chrome') ||
-    msg.includes('chromium') ||
-    msg.includes('could not find') ||
-    msg.includes('failed to launch') ||
-    msg.includes('spawn') ||
-    msg.includes('enoent')
-  )
-}
-
-function isPreviewServerError(err) {
-  const msg = (err.message || '').toLowerCase()
-  return msg.includes('vite preview') || msg.includes('eaddrinuse') || msg.includes('eacces')
 }
 
 try {
   const results = await main()
   console.log(`Capture complete: ${results.length} files written to dist/`)
 } catch (err) {
-  if (isChromiumError(err)) {
-    console.warn(`⚠ Chromium not available — skipping prerender capture (install with: npx puppeteer browsers install chrome)`)
-    process.exitCode = 0
-  } else if (isPreviewServerError(err)) {
-    console.warn(`⚠ Preview server failed — skipping prerender capture: ${err.message}`)
-    process.exitCode = 0
-  } else {
-    console.error(`CAPTURE FAILED: ${err.message}`)
-    process.exitCode = 1
-  }
+  console.error(`CAPTURE FAILED: ${err.message}`)
+  process.exitCode = 1
 } finally {
   if (browser) {
     try {

@@ -1,21 +1,23 @@
 import { writeFileSync, mkdirSync } from 'node:fs'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { ALL_ROUTES } from './routes.mjs'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const DIST = join(__dirname, '..', 'dist')
 const BASE = 'https://moduloplatform.com'
 
-const lines = [
-  '# Modulo',
-  '',
-  'Modulo is an agent governance platform for your agentic SDLC. It enforces boundaries on every step of your agent-driven software delivery: typed schemas validate inputs and outputs, risky decisions pause for human review, and every action is written to a tamper-evident audit trail. Self-hosted and source-available.',
-  '',
-  '## Pages',
-  `- [Modulo — Agent governance platform](${BASE}/)`,
-  '',
-]
+const lines = []
+lines.push('# Modulo')
+lines.push('')
+lines.push('Modulo is a self-hosted platform for building, running, and governing AI agent pipelines that automate your software delivery lifecycle.')
+lines.push('')
+lines.push('## Pages')
+for (const route of ALL_ROUTES) {
+  lines.push(`- [${route.title.replace(/ \u2014 Modulo$/, '').replace(/ - Modulo$/, '')}](${BASE}${route.path})`)
+}
+lines.push('')
 
 mkdirSync(DIST, { recursive: true })
 writeFileSync(join(DIST, 'llms.txt'), lines.join('\n'))
-console.log('Generated llms.txt')
+console.log(`Generated llms.txt with ${ALL_ROUTES.length} pages`)
