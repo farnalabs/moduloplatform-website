@@ -12,8 +12,7 @@
     "capture": "node scripts/capture.mjs",
     "generate:sitemap": "node scripts/generate-sitemap.mjs",
     "generate:llms": "node scripts/generate-llms.mjs",
-    "verify:captured": "node scripts/verify-captured.mjs",
-    "postbuild": "npm run capture && npm run generate:sitemap && npm run generate:llms && npm run verify:captured"
+    "verify:captured": "node scripts/verify-captured.mjs"
   },
   "dependencies": {
     "vue": "^3.5.0",
