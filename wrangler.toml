@@ -1,2 +1,3 @@
 name = "moduloplatform-website"
 pages_build_output_dir = "dist"
+build_command = "pnpm run build"
