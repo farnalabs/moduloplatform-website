@@ -49,7 +49,9 @@ import { APP_URL } from '@/config'
       <p class="mt-4 text-sm text-ink-300">
         Free and complete. No credit card required. Self-hosted.
       </p>
-      <div class="mx-auto mt-12 flex aspect-[16/9] min-h-[280px] items-center justify-center rounded-xl border border-ink-700/50 bg-ink-800/30"><span class="text-sm text-ink-300">Product screenshot coming soon</span></div>
+      <div class="mx-auto mt-12 w-full overflow-hidden rounded-xl border border-teal-500/10 bg-ink-900 shadow-[0_0_40px_rgba(0,255,209,0.05)]">
+        <img src="/dashboard-screenshot.png" alt="Modulo dashboard showing pipelines, runs, and spend overview" class="w-full" />
+      </div>
     </div>
   </section>
 </template>
