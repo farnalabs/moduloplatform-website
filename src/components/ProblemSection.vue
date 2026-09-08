@@ -27,13 +27,14 @@ const problems = [
   >
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
       <h2 id="problem-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        The governance gaps in agent pipelines
+        Agent capability is moving faster than your ability to trust it.
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Agents are powerful and opaque. Without governance they become a liability: unreviewed
-        output, no accountability, no way to measure whether they are helping. A single agent loop
-        hides these gaps; an explicit graph of agents, gates, and humans surfaces them. These are
-        the gaps Modulo closes:
+        Agents can already write code, change configuration, review pull requests, and cut
+        releases. The limiting factor isn't what they can do - it's what your organization is
+        prepared to let them do without a human watching every step. Without governance,
+        capability becomes a liability: unreviewed output, no accountability, no way to measure
+        whether agents are helping. These are the gaps Modulo closes:
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li

@@ -8,20 +8,16 @@ import { APP_URL } from '@/config'
     aria-labelledby="hero-heading"
   >
     <div class="mx-auto max-w-content px-4 py-20 sm:px-6 sm:py-28">
-      <p class="mb-4 text-center text-sm font-semibold tracking-tight text-ink-50">Modulo</p>
+      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Agent Governance Platform</p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
       >
-        Agent governance for your agentic SDLC.
+        Let autonomous agents take on more of your SDLC without losing control.
       </h1>
       <p class="mt-6 max-w-3xl text-lg text-ink-300">
-        Modulo enforces boundaries on your agentic SDLC: every step validates against typed
-        schemas, risky decisions pause for review where you configure them, and every action is
-        written to a tamper-evident audit trail. Self-hosted and source-available, so your
-        prompts and data stay in your infrastructure. Under the hood you compose agents, tools,
-        and human gates into an explicit execution graph — the practice the industry now calls
-        graph engineering.
+        Decide what agents can do, where humans need to approve, and what can run autonomously.
+        Modulo enforces those boundaries and records every decision along the way.
       </p>
       <div class="mt-8 flex flex-wrap items-center gap-4">
         <a
@@ -46,6 +42,7 @@ import { APP_URL } from '@/config'
           What is an agent governance platform?
         </a>
       </div>
+      <p class="mt-4 text-sm text-ink-300">Works with Claude Code, Cursor, Copilot, and your own agents.</p>
       <p class="mt-4 text-sm text-ink-300">
         Free and complete. No credit card required. Self-hosted.
       </p>
