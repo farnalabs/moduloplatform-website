@@ -8,7 +8,7 @@ import { APP_URL } from '@/config'
     aria-labelledby="hero-heading"
   >
     <div class="mx-auto max-w-content px-4 py-20 sm:px-6 sm:py-28">
-      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Agentic Delivery Governance Platform</p>
+      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Agentic Delivery Governance platform</p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
