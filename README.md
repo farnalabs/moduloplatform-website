@@ -1,13 +1,13 @@
 # moduloplatform-website
 
-The top-of-funnel marketing website for **Modulo**, the agent governance platform.
+The top-of-funnel marketing website for **Modulo**, the Agentic Delivery Governance platform.
 
 This site lives at `moduloplatform.com` and is deliberately separate from
 [`modulo.run`](https://modulo.run), which is the product itself (the app, the
 brand hub, and the docs). Its job is to capture search intent for the category
 Modulo sits in, primarily:
 
-> "What is an agent governance platform?"
+> "What is an Agentic Delivery Governance platform?"
 
 and then hand qualified visitors off to the product via the **Start free**
 call to action.
@@ -47,7 +47,7 @@ Cloudflare Pages, configured via `wrangler.toml`:
 ## Content decisions
 
 - Positioning mirrors the Modulo PRD: "We handle the boilerplate. You handle the
-  remainder." Modulo is an agent governance platform for AI-powered SDLC
+  remainder." Modulo is an Agentic Delivery Governance platform for AI-powered SDLC
   pipelines, a visual, composable pipeline of atomic agents that automate work
   between GitHub, Linear, Notion, and similar tools.
 - The Community edition is free and complete — self-hosted, no credit card

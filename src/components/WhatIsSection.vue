@@ -6,10 +6,10 @@
       <div class="mt-6 grid gap-8 lg:grid-cols-2">
         <div class="space-y-4 text-ink-300">
           <h2 id="what-is-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-            What is an agent governance platform?
+            What is an Agentic Delivery Governance platform?
           </h2>
           <p>
-            An agent governance platform is the layer that gives your agents boundaries. Agents
+            An Agentic Delivery Governance platform is the layer that gives your agents boundaries. Agents
             are good at reasoning and generating output. They are bad at knowing what they are
             allowed to touch, when a human must review their work, and whether the output they
             produced is actually trustworthy.
@@ -23,7 +23,7 @@
             gates, and a tamper-evident record of everything that happens.
           </p>
           <p>
-            Modulo is an agent governance platform built for the software development lifecycle.
+            Modulo is an Agentic Delivery Governance platform built for the software development lifecycle.
             It gives teams a visual, composable pipeline of agents that move work across the
             tools they already use, with every action audited.
           </p>

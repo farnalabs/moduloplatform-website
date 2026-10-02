@@ -8,7 +8,7 @@ import { APP_URL } from '@/config'
     aria-labelledby="hero-heading"
   >
     <div class="mx-auto max-w-content px-4 py-20 sm:px-6 sm:py-28">
-      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Agent Governance Platform</p>
+      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Agentic Delivery Governance Platform</p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
@@ -39,7 +39,7 @@ import { APP_URL } from '@/config'
           href="#what-is"
           class="inline-flex items-center gap-2 rounded-lg border border-ink-600 px-5 py-3 text-sm font-medium text-ink-100 hover:border-ink-600 hover:text-ink-50"
         >
-          What is an agent governance platform?
+          What is an Agentic Delivery Governance platform?
         </a>
       </div>
       <p class="mt-4 text-sm text-ink-300">Works with Claude Code, Cursor, Copilot, and your own agents.</p>
