@@ -27,11 +27,11 @@ const steps = [
   >
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
       <h2 id="solution-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        How Modulo handles it
+        How Modulo runs the factory
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Modulo turns governance into configuration, not custom code. The same four moves take a
-        manual process from idea to a governed, auditable agent graph:
+        Modulo turns the production system into configuration, not custom code. The same four moves take
+        work from intake to a governed, auditable factory graph:
       </p>
       <ol class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <li
@@ -50,8 +50,8 @@ const steps = [
         </li>
       </ol>
       <p class="mt-8 max-w-2xl text-ink-300">
-        The result is a governed graph of atomic AI agents that automates your SDLC work with
-        enforced boundaries, human gates where it matters, and an audit trail you can trust.
+        The result is a software factory of atomic AI agents that automates your SDLC work with
+        enforced boundaries, human gates where it matters, and evidence you own.
       </p>
     </div>
   </section>

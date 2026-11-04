@@ -10,7 +10,7 @@ const BASE = 'https://moduloplatform.com'
 const lines = []
 lines.push('# Modulo')
 lines.push('')
-lines.push('Modulo is a self-hosted platform for building, running, and governing AI agent pipelines that automate your software delivery lifecycle.')
+lines.push('Modulo is a self-hosted software factory for building, running, and governing AI agent pipelines that automate your software delivery lifecycle.')
 lines.push('')
 lines.push('## Pages')
 for (const route of ALL_ROUTES) {

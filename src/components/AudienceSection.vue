@@ -26,8 +26,8 @@ const audiences = [
         Who it is for
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Modulo is built for teams that want control over their agents without building the
-        governance stack themselves.
+        Modulo is built for teams that want to own the software factory around their agents without
+        building the production and governance stack themselves.
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li

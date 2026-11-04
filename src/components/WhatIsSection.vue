@@ -6,54 +6,44 @@
       <div class="mt-6 grid gap-8 lg:grid-cols-2">
         <div class="space-y-4 text-ink-300">
           <h2 id="what-is-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-            What is an Agentic Delivery Governance platform?
+            What is a software factory, and how do you run one you own?
           </h2>
           <p>
-            An Agentic Delivery Governance platform is the layer that gives your agents boundaries. Agents
-            are good at reasoning and generating output. They are bad at knowing what they are
-            allowed to touch, when a human must review their work, and whether the output they
-            produced is actually trustworthy.
+            A software factory is the production system around AI agents that takes work from intake to a shippable change. It isolates each run, gives agents narrow jobs, checks the result, routes risky work for review, and records what happened.
           </p>
           <p>
-            Governance is the discipline of enforcing those boundaries. The mechanism is graph engineering:
-            designing agent systems as explicit graphs of nodes (agents, tools, validators, humans)
-            and edges (typed schema seams, deterministic gates) rather than one monolithic prompt.
-            Instead of a single agent loop with no oversight, you build a graph: a network of
-            atomic agents, each with a narrow job, connected by typed schema seams, deterministic
-            gates, and a tamper-evident record of everything that happens.
+            Governance is a built-in property of that factory: the rules that define what agents may touch, when a human must review their work, and whether the output is trustworthy enough to move forward. The formal category is Agentic Delivery Governance platform. The factory is the market frame.
           </p>
           <p>
-            Modulo is an Agentic Delivery Governance platform built for the software development lifecycle.
-            It gives teams a visual, composable pipeline of agents that move work across the
-            tools they already use, with every action audited.
+            The mechanism inside Modulo is graph engineering: designing the factory as an explicit graph of agents, tools, validators, and humans connected by typed schema seams and deterministic gates rather than one monolithic prompt. Modulo is the software factory you run on your infrastructure, with governance, evidence, and delivery built into the floor.
           </p>
         </div>
         <div class="rounded-lg border border-ink-700 bg-ink-800 p-6">
-          <h3 class="text-lg font-semibold text-ink-50">The category Modulo sits in</h3>
+          <h3 class="text-lg font-semibold text-ink-50">What makes a factory yours</h3>
           <ul class="mt-4 space-y-3 text-ink-300">
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Governance first.</strong> Enforced boundaries, gates, and rules around every agent action.</span>
+              <span><strong class="text-ink-100">Factory floor included.</strong> Intake, isolated runs, gates, evidence, and release automation are part of the system you run.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Auditability built in.</strong> Every action recorded in a tamper-evident trail.</span>
+              <span><strong class="text-ink-100">Evidence built in.</strong> Every action recorded in a tamper-evident trail you keep on your infrastructure.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Process management.</strong> Agentic work becomes a managed, repeatable process.</span>
+              <span><strong class="text-ink-100">Repeatable production.</strong> Agentic work becomes a managed, repeatable path from intake to merge.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Not an agent executor.</strong> We do not run your agents' reasoning loop - we dispatch to whatever runtime or system you already use to run your agents, then manage the inputs and outputs around it.</span>
+              <span><strong class="text-ink-100">Bring your own agents.</strong> We dispatch to whatever runtime or system you already use to run your agents, then manage the inputs and outputs around it.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Not a black box.</strong> You own the prompts, schemas, and governance; Modulo runs them.</span>
+              <span><strong class="text-ink-100">You own the system.</strong> You own the prompts, schemas, evidence, and governance because the factory runs on your infrastructure.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Graph engineering native.</strong> The engine composes agents, tools, gates, and humans into one explicit, governed execution graph - not a tangle of prompts.</span>
+              <span><strong class="text-ink-100">Graph engineering native.</strong> The engine composes agents, tools, gates, and humans into one explicit factory graph - not a tangle of prompts.</span>
             </li>
           </ul>
           <p class="mt-6 text-sm text-ink-300">

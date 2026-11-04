@@ -1,19 +1,19 @@
 <script setup lang="ts">
 const problems = [
   {
-    title: 'No enforced boundaries',
+    title: 'No factory boundaries',
     body: 'Agents can pass garbage downstream with no record. Without schema seams at every step, bad output flows straight into your tools and your production systems.',
   },
   {
-    title: 'No human gates',
+    title: 'No review gates',
     body: 'Agents ship unreviewed work. Without a deterministic gate or a human in the loop, nothing stands between an agent output and the work that matters.',
   },
   {
-    title: 'No audit trail',
+    title: 'No owned evidence',
     body: 'You cannot say what an agent did or why. When something breaks or ships wrong, there is no verifiable record of the action that caused it.',
   },
   {
-    title: 'No evidence',
+    title: 'No path to autonomy',
     body: 'You cannot tell if the pipeline is getting better. Without evals and run history, quality is a guess and autonomy cannot be earned.',
   },
 ] as const
@@ -27,14 +27,13 @@ const problems = [
   >
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
       <h2 id="problem-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        Agent capability is moving faster than your ability to trust it.
+        Your factory has agents, but not yet a production system you can trust.
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
         Agents can already write code, change configuration, review pull requests, and cut
-        releases. The limiting factor isn't what they can do - it's what your organization is
-        prepared to let them do without a human watching every step. Without governance,
-        capability becomes a liability: unreviewed output, no accountability, no way to measure
-        whether agents are helping. These are the gaps Modulo closes:
+        releases. The limiting factor is not capability. It is whether the factory around those
+        agents has clear boundaries, evidence, review, and a measured path to more autonomy.
+        Without those built-in properties, the factory becomes a liability. These are the gaps Modulo closes:
       </p>
       <ul class="mt-8 grid gap-5 sm:grid-cols-2">
         <li

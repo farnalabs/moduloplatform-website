@@ -6,10 +6,10 @@ import { APP_URL, GITHUB_URL, MODULO_RUN } from '@/config'
   <section id="cta" class="relative overflow-hidden" aria-labelledby="cta-heading">
     <div class="mx-auto max-w-content px-4 py-20 text-center sm:px-6 sm:py-28">
       <h2 id="cta-heading" class="mx-auto max-w-2xl text-3xl font-semibold tracking-tight text-ink-50">
-        Start building governed agent graphs free
+        Start running your own software factory free
       </h2>
       <p class="mx-auto mt-4 max-w-2xl text-lg text-ink-300">
-        The Community edition is free and complete. Self-host it on your own infrastructure. No
+        The Community edition is free and complete. Run the factory on your own infrastructure. No
         credit card required.
       </p>
       <p class="mt-6 text-sm text-ink-300">Looking for SSO, RBAC, and audit export? Check out the <a :href="`${MODULO_RUN}/pricing`" class="text-teal-400 hover:text-teal-300">Team plan on our Pricing page</a>.</p>

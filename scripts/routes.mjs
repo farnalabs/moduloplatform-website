@@ -2,8 +2,8 @@ export const ROUTES = [
   {
     path: '/',
     file: 'index.html',
-    title: 'Modulo: the governance platform for your agentic SDLC',
-    marker: 'Agent governance for your agentic SDLC',
+    title: 'Modulo: your self-hosted software factory',
+    marker: 'What is a software factory, and how do you run one you own?'
   },
 ]
 
