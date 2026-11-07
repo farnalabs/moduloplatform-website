@@ -8,16 +8,15 @@ import { APP_URL } from '@/config'
     aria-labelledby="hero-heading"
   >
     <div class="mx-auto max-w-content px-4 py-20 sm:px-6 sm:py-28">
-      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Self-hosted software factory</p>
+      <p class="mb-4 text-center text-sm font-medium uppercase tracking-widest text-teal-500">Delivery Governance Platform</p>
       <h1
         id="hero-heading"
         class="max-w-3xl text-4xl font-semibold leading-tight tracking-tight text-ink-50 sm:text-5xl"
       >
-        An Autonomous Software Factory on Your Infrastructure
+        Govern the software development lifecycle as AI and automation take on more of the work.
       </h1>
       <p class="mt-6 max-w-3xl text-lg text-ink-300">
-        Ship features, triage bugs, and merge code using AI agents that run entirely within your perimeter.
-        Modulo provides the complete factory floor: intake automation, isolated sandboxes, multi-lens testing gates, and tamper-proof audit trails.
+        Govern automated software delivery across the lifecycle, from code and dependencies to security, release, documentation, evidence, and remediation. Modulo runs in your environment, so your infrastructure, data, and delivery evidence stay yours.
       </p>
       <div class="mt-6 flex flex-wrap items-center gap-2">
         <span class="inline-flex items-center rounded-md border border-ink-700/80 bg-ink-800/60 px-3 py-1 text-xs font-medium text-ink-200">
@@ -53,7 +52,7 @@ import { APP_URL } from '@/config'
           href="#what-is"
           class="inline-flex items-center gap-2 rounded-lg border border-ink-600 px-5 py-3 text-sm font-medium text-ink-100 hover:border-ink-600 hover:text-ink-50"
         >
-          What is a software factory, and how do you run one you own?
+          See how delivery governance works
         </a>
       </div>
       <p class="mt-4 text-sm text-ink-300">Works with Claude Code, Cursor, Copilot, and your own agents.</p>

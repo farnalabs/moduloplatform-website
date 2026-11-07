@@ -6,16 +6,13 @@
       <div class="mt-6 grid gap-8 lg:grid-cols-2">
         <div class="space-y-4 text-ink-300">
           <h2 id="what-is-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-            What is a software factory, and how do you run one you own?
+            Govern the full software delivery lifecycle
           </h2>
           <p>
-            A software factory is the production system around AI agents that takes work from intake to a shippable change. It isolates each run, gives agents narrow jobs, checks the result, routes risky work for review, and records what happened.
+            Modulo governs automated software delivery from code changes through dependencies, security, release, documentation, evidence, and remediation. It gives teams a clear way to increase automation without losing control of what moves forward.
           </p>
           <p>
-            Governance is a built-in property of that factory: the rules that define what agents may touch, when a human must review their work, and whether the output is trustworthy enough to move forward. The formal category is Agentic Delivery Governance platform. The factory is the market frame.
-          </p>
-          <p>
-            The mechanism inside Modulo is graph engineering: designing the factory as an explicit graph of agents, tools, validators, and humans connected by typed schema seams and deterministic gates rather than one monolithic prompt. Modulo is the software factory you run on your infrastructure, with governance, evidence, and delivery built into the floor.
+            The platform runs in your environment. Your infrastructure, data, prompts, and delivery evidence stay under your control, while human review and deterministic gates handle the work that should not move on trust alone.
           </p>
         </div>
         <div class="rounded-lg border border-ink-700 bg-ink-800 p-6">
@@ -23,7 +20,7 @@
           <ul class="mt-4 space-y-3 text-ink-300">
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Factory floor included.</strong> Intake, isolated runs, gates, evidence, and release automation are part of the system you run.</span>
+              <span><strong class="text-ink-100">Lifecycle coverage.</strong> Govern code, dependencies, licensing, security, release, documentation, evidence, and remediation in one delivery system.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
@@ -31,7 +28,7 @@
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Repeatable production.</strong> Agentic work becomes a managed, repeatable path from intake to merge.</span>
+              <span><strong class="text-ink-100">Controlled automation.</strong> Automated work follows clear boundaries, review points, and evidence before it moves forward.</span>
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
@@ -43,12 +40,11 @@
             </li>
             <li class="flex gap-3">
               <span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-teal-500" aria-hidden="true"></span>
-              <span><strong class="text-ink-100">Graph engineering native.</strong> The engine composes agents, tools, gates, and humans into one explicit factory graph - not a tangle of prompts.</span>
+              <span><strong class="text-ink-100">Built for your environment.</strong> Keep your infrastructure, data, prompts, and delivery evidence in the environment you control.</span>
             </li>
           </ul>
           <p class="mt-6 text-sm text-ink-300">
-            Connects to the tools your team already runs: GitHub, GitLab, Bitbucket, Jira, Linear,
-            Confluence, Slack, Microsoft Teams, and 30+ more.
+            Connects to the tools your team already runs, so governance can follow the work across your existing delivery stack.
           </p>
         </div>
       </div>

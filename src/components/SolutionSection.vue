@@ -27,11 +27,10 @@ const steps = [
   >
     <div class="mx-auto max-w-content px-4 py-16 sm:px-6 sm:py-20">
       <h2 id="solution-heading" class="text-3xl font-semibold tracking-tight text-ink-50">
-        How Modulo runs the factory
+        How Modulo governs delivery
       </h2>
       <p class="mt-4 max-w-2xl text-ink-300">
-        Modulo turns the production system into configuration, not custom code. The same four moves take
-        work from intake to a governed, auditable factory graph:
+        Modulo makes automated delivery explicit, controlled, and auditable across the lifecycle:
       </p>
       <ol class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <li
@@ -50,8 +49,7 @@ const steps = [
         </li>
       </ol>
       <p class="mt-8 max-w-2xl text-ink-300">
-        The result is a software factory of atomic AI agents that automates your SDLC work with
-        enforced boundaries, human gates where it matters, and evidence you own.
+        The result is automated SDLC work with enforced boundaries, human review where it matters, and evidence you keep in your environment.
       </p>
     </div>
   </section>
